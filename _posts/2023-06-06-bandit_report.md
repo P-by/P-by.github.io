@@ -1,5 +1,3 @@
-# 보고서
-
 # **level0**
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220
@@ -255,7 +253,7 @@ Step 3. sshkey.private 사용하여 bandit14 에 로그인합니다.
 
 Step 4. ssh bandit14@bandit.labs.overthewire.org -i ./sshkey.private -p 2220
 
-![https://cafeptthumb-phinf.pstatic.net/MjAyMTA3MDJfNzMg/MDAxNjI1MjA4NjQ5NTU3.W2fqBySZ3oFFrAZEGmoKUVoQcvpFB2tZBkOpqib9L34g.5gtxkNeJluayIkiBaTNJAPMLFfw-qQDNk3NidDKNDoEg.PNG/random_818B9A04-F8E1-4881-81C2-3C51235BC587.png?type=w1600](https://cafeptthumb-phinf.pstatic.net/MjAyMTA3MDJfNzMg/MDAxNjI1MjA4NjQ5NTU3.W2fqBySZ3oFFrAZEGmoKUVoQcvpFB2tZBkOpqib9L34g.5gtxkNeJluayIkiBaTNJAPMLFfw-qQDNk3NidDKNDoEg.PNG/random_818B9A04-F8E1-4881-81C2-3C51235BC587.png?type=w1600)
+![Untitled](/assets/bandit_report/bandit13.png)
 
 ---
 
@@ -285,9 +283,9 @@ Step 4. ssh bandit14@bandit.labs.overthewire.org -i ./sshkey.private -p 2220
 
 1. ssh key
     1. 비밀번호 없이 ssh 로그인하는 방법은 ssh key(서버에 접속 할 때 비밀번호 대신 key를 제출하는 방식)을 사용합니다.
-    2. ssh key는 공개키와 비공개 키로 이루어져있고 공개 키는 서버에 비공개 키는 클라이언트에 위치하며 ssh 접속을 시도하면 ssh client가 로컬 머신의 비공개키와 원격 머신의 비공 개 키를 비교해서 둘이 일치하면 로 그인이 됩니다.
+    2. ssh key는 공개키와 비공개 키로 이루어져있고 공개 키는 서버에 비공개 키는 클라이언트에 위치하며 ssh 접속을 시도하면 ssh client가 로컬 머신의 비공개키와 원격 머신의 비공 개 키를 비교해서 둘이 일치하면 로그인이 됩니다.
 
-[data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzEzIiBoZWlnaHQ9IjY5NiIgdmlld0JveD0iMCAwIDEzMTMgNjk2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRkNGQ0ZDIi8+PC9zdmc+](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzEzIiBoZWlnaHQ9IjY5NiIgdmlld0JveD0iMCAwIDEzMTMgNjk2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRkNGQ0ZDIi8+PC9zdmc+)
+
 
 # **level14 -> level15**
 
